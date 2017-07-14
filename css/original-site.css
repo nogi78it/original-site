@@ -502,6 +502,7 @@ footer {
         width: 100%;
         padding-bottom: 90px; }
         main .contact .contact-contents .contact-box .row .form {
+          color: black;
           box-sizing: border-box;
           padding: 2px;
           height: 40px;
@@ -538,6 +539,7 @@ footer {
             font-size: 1.2rem;
             line-height: 1; }
         main .contact .contact-contents .contact-box .row .text {
+          color: black;
           box-sizing: border-box;
           padding: 3px;
           margin-bottom: 60px;
