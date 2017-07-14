@@ -1,0 +1,608 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Alice|Radley|Sorts+Mill+Goudy");
+html {
+  font-size: 62.5%; }
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-weight: normal; }
+
+body {
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Verdana, "ＭＳ Ｐゴシック", sans-serif;
+  margin: 0;
+  font-size: 1.5em;
+  font-weight: 400;
+  background-color: #fbfbf8;
+  width: 100%; }
+  body .sp-title {
+    display: none; }
+  body li {
+    display: inline-block; }
+  body .parallax {
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 0; }
+    body .parallax h3 {
+      font-family: "Alice", serif, "Sorts Mill Goudy", serif, "Radley", serif;
+      height: 100%;
+      text-align: center;
+      background-color: rgba(0, 0, 0, 0.5);
+      color: #b0cccd;
+      font-size: 48px;
+      font-size: 4.8rem;
+      padding: 60px 0;
+      z-index: 10; }
+
+header {
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  width: 100%; }
+  header .row {
+    width: 100%;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.6); }
+    header .row #pc-menu {
+      display: block;
+      width: 80%;
+      margin: 0 auto; }
+      header .row #pc-menu ul {
+        position: relative;
+        display: block;
+        height: 70px;
+        width: 100%;
+        text-align: center;
+        font-size: 0px;
+        font-size: 0rem; }
+        header .row #pc-menu ul li {
+          text-align: center;
+          font-size: 20px;
+          font-size: 2rem;
+          width: 25%;
+          margin: 0; }
+          header .row #pc-menu ul li a {
+            display: inline-block;
+            box-sizing: border-box;
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            color: #b0cccd;
+            font-family: "Alice", serif, "Sorts Mill Goudy", serif, "Radley", serif;
+            line-height: 70px; }
+            header .row #pc-menu ul li a:hover {
+              color: #61fcfe;
+              background-color: #4d4d4d;
+              transition: all 1s; }
+    header .row #sp-menu {
+      display: none; }
+
+main .eye-catch {
+  top: 0;
+  width: 100%;
+  height: 690px; }
+  main .eye-catch .owl-carousel .eye-back {
+    box-sizing: border-box;
+    height: 690px;
+    width: 100%;
+    background-size: cover;
+    background-position: top; }
+  main .eye-catch .owl-carousel .a {
+    background-image: url(../image/eye01.png); }
+  main .eye-catch .owl-carousel .b {
+    background-image: url(../image/eye02.png); }
+  main .eye-catch .owl-carousel .c {
+    background-image: url(../image/eye03.png); }
+  main .eye-catch .owl-carousel .d {
+    background-image: url(../image/eye04.png); }
+main .main-title {
+  padding: 150px 0 200px 0;
+  background-color: #02232c;
+  text-align: center; }
+  main .main-title .logo {
+    font-family: "Alice", serif, "Sorts Mill Goudy", serif, "Radley", serif;
+    color: #b0cccd; }
+    main .main-title .logo h1 {
+      font-size: 48px;
+      font-size: 4.8rem; }
+    main .main-title .logo h2 {
+      font-size: 30px;
+      font-size: 3rem; }
+  main .main-title p {
+    color: #e9f6f6;
+    margin-top: 60px; }
+main .about {
+  background-color: #02232c; }
+  main .about .about-title .parallax {
+    background-image: url(../image/title01.png); }
+  main .about .about-contents {
+    color: #e9f6f6;
+    padding: 10% 0 140px 120px; }
+    main .about .about-contents h4 {
+      display: block;
+      font-size: 18px;
+      font-size: 1.8rem; }
+    main .about .about-contents p {
+      margin-top: 60px;
+      font-size: 14px;
+      font-size: 1.4rem; }
+    main .about .about-contents .text2 {
+      margin-top: 45px; }
+main .work {
+  background-color: #fbfbf8;
+  width: 100%; }
+  main .work .work-title .parallax {
+    background-image: url(../image/title02.png); }
+  main .work .work-contents {
+    width: 100%;
+    padding: 40px 0 150px 0; }
+    main .work .work-contents .row .contents {
+      margin: 0 auto;
+      width: 80%; }
+      main .work .work-contents .row .contents:after {
+        content: "";
+        display: block;
+        clear: both; }
+      main .work .work-contents .row .contents .box {
+        float: left;
+        box-sizing: border-box;
+        padding: 20px;
+        position: relative;
+        height: auto;
+        width: 50%; }
+        main .work .work-contents .row .contents .box .box-contents img {
+          height: 100%;
+          width: 100%;
+          vertical-align: bottom; }
+        main .work .work-contents .row .contents .box .box-contents .cover {
+          display: none;
+          position: absolute;
+          top: 25%;
+          left: 25%;
+          height: 50%;
+          width: 50%;
+          background-color: rgba(0, 0, 0, 0.5);
+          color: #e9f6f6;
+          text-align: center; }
+          main .work .work-contents .row .contents .box .box-contents .cover h5 {
+            position: relative;
+            top: 45%;
+            transform: translateY(-50%);
+            font-size: 18px;
+            font-size: 1.8rem; }
+          main .work .work-contents .row .contents .box .box-contents .cover p {
+            font-size: 14px;
+            font-size: 1.4rem;
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%); }
+main .contact {
+  width: 100%; }
+  main .contact .contact-title .parallax {
+    background-image: url(../image/title03.png); }
+  main .contact .contact-contents {
+    background-color: #02232c;
+    color: #e9f6f6; }
+    main .contact .contact-contents p {
+      text-align: center;
+      padding: 60px 0 47px 0; }
+    main .contact .contact-contents .contact-box {
+      width: 80%;
+      margin: 0 auto;
+      padding-bottom: 180px; }
+      main .contact .contact-contents .contact-box .row .form {
+        box-sizing: border-box;
+        padding: 5px;
+        font-weight: normal;
+        font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Verdana, "ＭＳ Ｐゴシック", sans-serif;
+        height: 30px;
+        width: 60%;
+        display: block;
+        margin-bottom: 26px;
+        font-size: 14px;
+        font-size: 1.4rem; }
+        main .contact .contact-contents .contact-box .row .form:placeholder-shown {
+          color: #b0cccd;
+          font-size: 12px;
+          font-size: 1.2rem;
+          line-height: 1; }
+        main .contact .contact-contents .contact-box .row .form::-webkit-input-placeholder {
+          color: #b0cccd;
+          font-size: 12px;
+          font-size: 1.2rem;
+          line-height: 1; }
+        main .contact .contact-contents .contact-box .row .form:-moz-placeholder {
+          opacity: 1;
+          color: #b0cccd;
+          font-size: 12px;
+          font-size: 1.2rem;
+          line-height: 1; }
+        main .contact .contact-contents .contact-box .row .form::-moz-placeholder {
+          opacity: 1;
+          color: #b0cccd;
+          font-size: 12px;
+          font-size: 1.2rem;
+          line-height: 1; }
+        main .contact .contact-contents .contact-box .row .form:-ms-input-placeholder {
+          color: #b0cccd;
+          font-size: 12px;
+          font-size: 1.2rem;
+          line-height: 1; }
+      main .contact .contact-contents .contact-box .row .text {
+        font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Verdana, "ＭＳ Ｐゴシック", sans-serif;
+        box-sizing: border-box;
+        padding: 7px;
+        margin-bottom: 55px;
+        height: 120px;
+        width: 100%;
+        display: block;
+        resize: none;
+        font-size: 14px;
+        font-size: 1.4rem; }
+        main .contact .contact-contents .contact-box .row .text:placeholder-shown {
+          color: #b0cccd;
+          font-size: 12px;
+          font-size: 1.2rem;
+          line-height: 1; }
+        main .contact .contact-contents .contact-box .row .text::-webkit-input-placeholder {
+          color: #b0cccd;
+          font-size: 12px;
+          font-size: 1.2rem;
+          line-height: 1; }
+        main .contact .contact-contents .contact-box .row .text:-moz-placeholder {
+          opacity: 1;
+          color: #b0cccd;
+          font-size: 12px;
+          font-size: 1.2rem;
+          line-height: 1; }
+        main .contact .contact-contents .contact-box .row .text::-moz-placeholder {
+          opacity: 1;
+          color: #b0cccd;
+          font-size: 12px;
+          font-size: 1.2rem;
+          line-height: 1; }
+        main .contact .contact-contents .contact-box .row .text:-ms-input-placeholder {
+          color: #b0cccd;
+          font-size: 12px;
+          font-size: 1.2rem;
+          line-height: 1; }
+      main .contact .contact-contents .contact-box .row #form_send {
+        display: block;
+        width: 200px;
+        height: 45px;
+        margin: 0 auto;
+        font-family: "Alice", serif, "Sorts Mill Goudy", serif, "Radley", serif;
+        font-size: 24px;
+        font-size: 2.4rem;
+        color: #02232c;
+        background-color: #fff; }
+
+footer {
+  height: 230px;
+  width: 100%; }
+  footer .Parallax {
+    height: 100%;
+    background-image: url(../image/title04.png);
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 0; }
+    footer .Parallax p {
+      box-sizing: border-box;
+      font-family: "Alice", serif, "Sorts Mill Goudy", serif, "Radley", serif;
+      height: 100%;
+      text-align: center;
+      background-color: rgba(0, 0, 0, 0.5);
+      color: #b0cccd;
+      font-size: 12px;
+      font-size: 1.2rem;
+      padding-top: 155px;
+      z-index: 10; }
+
+@media (max-width: 600px) {
+  * {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-weight: normal; }
+
+  body {
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Verdana, "ＭＳ Ｐゴシック", sans-serif;
+    margin: 0;
+    font-size: 1.5em;
+    font-weight: 400;
+    background-color: #fbfbf8;
+    width: 100%; }
+    body .sp-title {
+      display: none; }
+    body li {
+      display: inline-block; }
+    body .parallax {
+      background-size: cover;
+      background-attachment: fixed;
+      top: 500px;
+      z-index: 0; }
+      body .parallax h3 {
+        font-family: "Alice", serif, "Sorts Mill Goudy", serif, "Radley", serif;
+        height: 100%;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: #b0cccd;
+        font-size: 48px;
+        font-size: 4.8rem;
+        padding: 60px 0;
+        z-index: 10; }
+
+  header {
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%; }
+    header .row {
+      width: 100%;
+      height: 63px;
+      background-color: rgba(0, 0, 0, 0.6); }
+      header .row:after {
+        content: "";
+        display: block;
+        clear: both; }
+      header .row #pc-menu {
+        display: none; }
+      header .row #sp-menu {
+        position: relative;
+        display: block;
+        font-family: "Alice", serif, "Sorts Mill Goudy", serif, "Radley", serif;
+        height: 100%; }
+        header .row #sp-menu p {
+          position: absolute;
+          padding-left: 10px;
+          line-height: 63px;
+          color: #b0cccd;
+          font-size: 36px;
+          font-size: 3.6rem;
+          display: inline-block; }
+        header .row #sp-menu .navi {
+          width: 100%;
+          text-align: right;
+          color: #b0cccd;
+          font-size: 24px;
+          font-size: 2.4rem;
+          display: inline-block; }
+          header .row #sp-menu .navi i {
+            line-height: 63px;
+            font-size: 36px;
+            font-size: 3.6rem;
+            float: none;
+            padding-right: 10px; }
+          header .row #sp-menu .navi ul {
+            display: none;
+            width: 100%; }
+            header .row #sp-menu .navi ul li {
+              border-top: 2px solid rgba(255, 255, 255, 0.1);
+              width: 100%;
+              text-align: center; }
+              header .row #sp-menu .navi ul li a {
+                box-sizing: border-box;
+                padding: 15px;
+                text-align: center;
+                width: 100%;
+                display: block;
+                color: #02232c;
+                background-color: rgba(255, 255, 255, 0.7); }
+
+  main .eye-catch {
+    top: 0;
+    width: 100%;
+    height: 320px; }
+    main .eye-catch .owl-carousel .eye-back {
+      box-sizing: border-box;
+      height: 320px;
+      width: 100%;
+      background-size: cover;
+      background-position: center 0; }
+    main .eye-catch .owl-carousel .a {
+      background-image: url(../image/sample01.jpg);
+      background-position: center 0;
+      background-size: cover; }
+  main .main-title {
+    box-sizing: border-box;
+    padding: 54px 10px 130px 10px; }
+    main .main-title .logo h1 {
+      font-size: 38px;
+      font-size: 3.8rem; }
+    main .main-title .logo h2 {
+      font-size: 26px;
+      font-size: 2.6rem; }
+    main .main-title p {
+      font-size: 15px;
+      font-size: 1.5rem;
+      color: #e9f6f6;
+      margin-top: 54px; }
+  main .about {
+    background-color: #02232c; }
+    main .about .about-title .parallax {
+      background-image: url(../image/sample01.jpg); }
+    main .about .about-contents {
+      box-sizing: border-box;
+      padding: 60px 10px 100px 10px; }
+      main .about .about-contents h4 {
+        display: block;
+        font-size: 18px;
+        font-size: 1.8rem; }
+      main .about .about-contents p {
+        margin-top: 60px;
+        font-size: 15px;
+        font-size: 1.5rem; }
+      main .about .about-contents .text2 {
+        margin-top: 40px; }
+  main .work {
+    width: 100%; }
+    main .work .work-title .parallax {
+      background-image: url(../image/sample01.jpg); }
+    main .work .work-contents {
+      width: 100%;
+      padding: 45px 0 50px 0; }
+      main .work .work-contents .row .contents {
+        margin: 0 auto;
+        width: 100%; }
+        main .work .work-contents .row .contents:after {
+          content: "";
+          display: block;
+          clear: both; }
+        main .work .work-contents .row .contents .box {
+          float: left;
+          box-sizing: border-box;
+          padding: 5px 10px;
+          position: relative;
+          height: auto;
+          width: 100%; }
+          main .work .work-contents .row .contents .box .box-contents img {
+            height: 100%;
+            width: 100%;
+            vertical-align: bottom; }
+          main .work .work-contents .row .contents .box .box-contents .cover {
+            display: none;
+            position: absolute;
+            top: 25%;
+            left: 25%;
+            height: 50%;
+            width: 50%;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: #e9f6f6;
+            text-align: center; }
+            main .work .work-contents .row .contents .box .box-contents .cover h5 {
+              position: relative;
+              top: 45%;
+              transform: translateY(-50%);
+              font-size: 18px;
+              font-size: 1.8rem; }
+            main .work .work-contents .row .contents .box .box-contents .cover p {
+              font-size: 14px;
+              font-size: 1.4rem;
+              position: relative;
+              top: 50%;
+              transform: translateY(-50%); }
+  main .contact {
+    width: 100%; }
+    main .contact .contact-title .parallax {
+      background-image: url(../image/sample01.jpg); }
+    main .contact .contact-contents {
+      box-sizing: border-box;
+      padding: 0 10px;
+      background-color: #02232c;
+      color: #e9f6f6; }
+      main .contact .contact-contents p {
+        text-align: center;
+        font-size: 16px;
+        font-size: 1.6rem;
+        padding: 60px 0 47px 0; }
+      main .contact .contact-contents .contact-box {
+        width: 100%;
+        padding-bottom: 90px; }
+        main .contact .contact-contents .contact-box .row .form {
+          box-sizing: border-box;
+          padding: 2px;
+          height: 40px;
+          width: 100%;
+          display: block;
+          margin-bottom: 15px;
+          font-size: 14px;
+          font-size: 1.4rem; }
+          main .contact .contact-contents .contact-box .row .form:placeholder-shown {
+            color: #b0cccd;
+            font-size: 12px;
+            font-size: 1.2rem;
+            line-height: 1; }
+          main .contact .contact-contents .contact-box .row .form::-webkit-input-placeholder {
+            color: #b0cccd;
+            font-size: 12px;
+            font-size: 1.2rem;
+            line-height: 1; }
+          main .contact .contact-contents .contact-box .row .form:-moz-placeholder {
+            opacity: 1;
+            color: #b0cccd;
+            font-size: 12px;
+            font-size: 1.2rem;
+            line-height: 1; }
+          main .contact .contact-contents .contact-box .row .form::-moz-placeholder {
+            opacity: 1;
+            color: #b0cccd;
+            font-size: 12px;
+            font-size: 1.2rem;
+            line-height: 1; }
+          main .contact .contact-contents .contact-box .row .form:-ms-input-placeholder {
+            color: #b0cccd;
+            font-size: 12px;
+            font-size: 1.2rem;
+            line-height: 1; }
+        main .contact .contact-contents .contact-box .row .text {
+          box-sizing: border-box;
+          padding: 3px;
+          margin-bottom: 60px;
+          height: 250px;
+          width: 100%;
+          display: block;
+          resize: none;
+          font-size: 14px;
+          font-size: 1.4rem; }
+          main .contact .contact-contents .contact-box .row .text:placeholder-shown {
+            color: #b0cccd;
+            font-size: 12px;
+            font-size: 1.2rem;
+            line-height: 1; }
+          main .contact .contact-contents .contact-box .row .text::-webkit-input-placeholder {
+            color: #b0cccd;
+            font-size: 12px;
+            font-size: 1.2rem;
+            line-height: 1; }
+          main .contact .contact-contents .contact-box .row .text:-moz-placeholder {
+            opacity: 1;
+            color: #b0cccd;
+            font-size: 12px;
+            font-size: 1.2rem;
+            line-height: 1; }
+          main .contact .contact-contents .contact-box .row .text::-moz-placeholder {
+            opacity: 1;
+            color: #b0cccd;
+            font-size: 12px;
+            font-size: 1.2rem;
+            line-height: 1; }
+          main .contact .contact-contents .contact-box .row .text:-ms-input-placeholder {
+            color: #b0cccd;
+            font-size: 12px;
+            font-size: 1.2rem;
+            line-height: 1; }
+        main .contact .contact-contents .contact-box .row #form_send {
+          width: 100%;
+          height: 55px;
+          margin: 0 auto;
+          font-family: "Alice", serif, "Sorts Mill Goudy", serif, "Radley", serif;
+          font-size: 24px;
+          font-size: 2.4rem;
+          color: #02232c;
+          background-color: #fff; }
+
+  footer {
+    height: 200px;
+    width: 100%; }
+    footer .Parallax {
+      height: 100%;
+      background-image: url(../image/sample01.jpg);
+      background-size: cover;
+      background-attachment: fixed;
+      z-index: 0; }
+      footer .Parallax p {
+        box-sizing: border-box;
+        font-family: "Alice", serif, "Sorts Mill Goudy", serif, "Radley", serif;
+        height: 100%;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: #b0cccd;
+        font-size: 10px;
+        font-size: 1rem;
+        padding-top: 140px;
+        z-index: 10; } }
+
+/*# sourceMappingURL=original-site.css.map */
