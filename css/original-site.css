@@ -322,7 +322,6 @@ footer {
     body .parallax {
       background-size: cover;
       background-attachment: fixed;
-      top: 500px;
       z-index: 0; }
       body .parallax h3 {
         font-family: "Alice", serif, "Sorts Mill Goudy", serif, "Radley", serif;
@@ -403,9 +402,13 @@ footer {
       background-size: cover;
       background-position: center 0; }
     main .eye-catch .owl-carousel .a {
-      background-image: url(../image/sample01.jpg);
-      background-position: center 0;
-      background-size: cover; }
+      background-image: url(../image/eye01.png); }
+    main .eye-catch .owl-carousel .b {
+      background-image: url(../image/eye02.png); }
+    main .eye-catch .owl-carousel .c {
+      background-image: url(../image/eye03.png); }
+    main .eye-catch .owl-carousel .d {
+      background-image: url(../image/eye04.png); }
   main .main-title {
     box-sizing: border-box;
     padding: 54px 10px 130px 10px; }
@@ -422,8 +425,6 @@ footer {
       margin-top: 54px; }
   main .about {
     background-color: #02232c; }
-    main .about .about-title .parallax {
-      background-image: url(../image/sample01.jpg); }
     main .about .about-contents {
       box-sizing: border-box;
       padding: 60px 10px 100px 10px; }
@@ -439,8 +440,6 @@ footer {
         margin-top: 40px; }
   main .work {
     width: 100%; }
-    main .work .work-title .parallax {
-      background-image: url(../image/sample01.jpg); }
     main .work .work-contents {
       width: 100%;
       padding: 45px 0 50px 0; }
@@ -486,8 +485,6 @@ footer {
               transform: translateY(-50%); }
   main .contact {
     width: 100%; }
-    main .contact .contact-title .parallax {
-      background-image: url(../image/sample01.jpg); }
     main .contact .contact-contents {
       box-sizing: border-box;
       padding: 0 10px;
@@ -501,45 +498,7 @@ footer {
       main .contact .contact-contents .contact-box {
         width: 100%;
         padding-bottom: 90px; }
-        main .contact .contact-contents .contact-box .row .form {
-          color: black;
-          box-sizing: border-box;
-          padding: 2px;
-          height: 40px;
-          width: 100%;
-          display: block;
-          margin-bottom: 15px;
-          font-size: 14px;
-          font-size: 1.4rem; }
-          main .contact .contact-contents .contact-box .row .form:placeholder-shown {
-            color: #b0cccd;
-            font-size: 12px;
-            font-size: 1.2rem;
-            line-height: 1; }
-          main .contact .contact-contents .contact-box .row .form::-webkit-input-placeholder {
-            color: #b0cccd;
-            font-size: 12px;
-            font-size: 1.2rem;
-            line-height: 1; }
-          main .contact .contact-contents .contact-box .row .form:-moz-placeholder {
-            opacity: 1;
-            color: #b0cccd;
-            font-size: 12px;
-            font-size: 1.2rem;
-            line-height: 1; }
-          main .contact .contact-contents .contact-box .row .form::-moz-placeholder {
-            opacity: 1;
-            color: #b0cccd;
-            font-size: 12px;
-            font-size: 1.2rem;
-            line-height: 1; }
-          main .contact .contact-contents .contact-box .row .form:-ms-input-placeholder {
-            color: #b0cccd;
-            font-size: 12px;
-            font-size: 1.2rem;
-            line-height: 1; }
-        main .contact .contact-contents .contact-box .row .text {
-          color: black;
+        main .contact .contact-contents .contact-box .row {
           box-sizing: border-box;
           padding: 3px;
           margin-bottom: 60px;
@@ -549,34 +508,71 @@ footer {
           resize: none;
           font-size: 14px;
           font-size: 1.4rem; }
-          main .contact .contact-contents .contact-box .row .text:placeholder-shown {
+          main .contact .contact-contents .contact-box .row .form {
+            color: black;
+            box-sizing: border-box;
+            padding: 2px;
+            height: 40px;
+            width: 100%;
+            display: block;
+            margin-bottom: 15px;
+            font-size: 14px;
+            font-size: 1.4rem; }
+            main .contact .contact-contents .contact-box .row .form:placeholder-shown {
+              color: #b0cccd;
+              font-size: 12px;
+              font-size: 1.2rem;
+              line-height: 1; }
+            main .contact .contact-contents .contact-box .row .form::-webkit-input-placeholder {
+              color: #b0cccd;
+              font-size: 12px;
+              font-size: 1.2rem;
+              line-height: 1; }
+            main .contact .contact-contents .contact-box .row .form:-moz-placeholder {
+              opacity: 1;
+              color: #b0cccd;
+              font-size: 12px;
+              font-size: 1.2rem;
+              line-height: 1; }
+            main .contact .contact-contents .contact-box .row .form::-moz-placeholder {
+              opacity: 1;
+              color: #b0cccd;
+              font-size: 12px;
+              font-size: 1.2rem;
+              line-height: 1; }
+            main .contact .contact-contents .contact-box .row .form:-ms-input-placeholder {
+              color: #b0cccd;
+              font-size: 12px;
+              font-size: 1.2rem;
+              line-height: 1; }
+          main .contact .contact-contents .contact-box .row:placeholder-shown {
             color: #b0cccd;
             font-size: 12px;
             font-size: 1.2rem;
             line-height: 1; }
-          main .contact .contact-contents .contact-box .row .text::-webkit-input-placeholder {
+          main .contact .contact-contents .contact-box .row::-webkit-input-placeholder {
             color: #b0cccd;
             font-size: 12px;
             font-size: 1.2rem;
             line-height: 1; }
-          main .contact .contact-contents .contact-box .row .text:-moz-placeholder {
+          main .contact .contact-contents .contact-box .row:-moz-placeholder {
             opacity: 1;
             color: #b0cccd;
             font-size: 12px;
             font-size: 1.2rem;
             line-height: 1; }
-          main .contact .contact-contents .contact-box .row .text::-moz-placeholder {
+          main .contact .contact-contents .contact-box .row::-moz-placeholder {
             opacity: 1;
             color: #b0cccd;
             font-size: 12px;
             font-size: 1.2rem;
             line-height: 1; }
-          main .contact .contact-contents .contact-box .row .text:-ms-input-placeholder {
+          main .contact .contact-contents .contact-box .row:-ms-input-placeholder {
             color: #b0cccd;
             font-size: 12px;
             font-size: 1.2rem;
             line-height: 1; }
-        main .contact .contact-contents .contact-box .row #form_send {
+        main .contact .contact-contents .contact-box #form_send {
           width: 100%;
           height: 55px;
           margin: 0 auto;
@@ -590,11 +586,7 @@ footer {
     height: 200px;
     width: 100%; }
     footer .Parallax {
-      height: 100%;
-      background-image: url(../image/sample01.jpg);
-      background-size: cover;
-      background-attachment: fixed;
-      z-index: 0; }
+      height: 100%; }
       footer .Parallax p {
         box-sizing: border-box;
         font-family: "Alice", serif, "Sorts Mill Goudy", serif, "Radley", serif;

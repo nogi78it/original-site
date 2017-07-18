@@ -408,7 +408,6 @@ body {
     .parallax {
                 background-size:cover;
                 background-attachment: fixed;
-                top :500px;
                 z-index:0;
                     h3 {
                         font-family:$en_font;
@@ -510,9 +509,16 @@ main {
                 background-position:center 0;
             }
             .a {
-                background-image:url(../image/sample01.jpg);
-                background-position:center 0;
-                 background-size:cover;
+                background-image:url(../image/eye01.png);
+            }
+            .b {
+                background-image:url(../image/eye02.png);
+            }
+            .c {
+                background-image:url(../image/eye03.png);
+            }
+            .d {
+                background-image:url(../image/eye04.png);
             }
         }
     }
@@ -537,11 +543,6 @@ main {
     
     .about {
         background-color:$blue1;
-        .about-title {
-             .parallax {
-                background-image:url(../image/sample01.jpg);
-            }
-        }
         
         .about-contents {
             box-sizing:border-box;
@@ -563,11 +564,6 @@ main {
     
     .work {
         width:100%;
-        .work-title {
-             .parallax {
-                background-image:url(../image/sample01.jpg);
-            }
-        }
         .work-contents {
             width:100%;
             padding:45px 0 50px 0;
@@ -626,11 +622,6 @@ main {
     
     .contact {
         width:100%;
-        .contact-title {
-             .parallax {
-                background-image:url(../image/sample01.jpg);
-            }
-        }
         .contact-contents {
             box-sizing:border-box;
             padding:0 10px;
@@ -662,8 +653,6 @@ main {
                                 line-height: 1;
                             }
                     }
-                    .text {
-                        color:black;
                         box-sizing:border-box;
                         padding:3px;
                         margin-bottom:60px;
@@ -692,7 +681,7 @@ main {
             }
         }
     }
-}
+
 
 
 
@@ -701,21 +690,18 @@ footer {
     width:100%;
     .Parallax {
         height:100%;
-        background-image:url(../image/sample01.jpg);
-                background-size:cover;
-                background-attachment: fixed;
-                z-index:0;
-                    p {
-                        box-sizing:border-box;
-                        font-family:$en_font;
-                        height:100%;
-                        text-align:center;
-                        background-color:rgba(0,0,0,.5);
-                        color:$blue2;
-                        @include fontsize(10);
-                        padding-top:140px;
-                        z-index:10;
-                        }
-            }
+        p {
+            box-sizing:border-box;
+            font-family:$en_font;
+            height:100%;
+            text-align:center;
+            background-color:rgba(0,0,0,.5);
+            color:$blue2;
+            @include fontsize(10);
+            padding-top:140px;
+            z-index:10;
+        }
+   }
 }
+
 }
