@@ -81,6 +81,8 @@ header {
 
 main .eye-catch {
   top: 0;
+  padding: 0;
+  margin: 0;
   width: 100%;
   height: 690px; }
   main .eye-catch .owl-carousel .eye-back {
@@ -231,6 +233,7 @@ main .contact {
           font-size: 1.2rem;
           line-height: 1; }
       main .contact .contact-contents .contact-box .row .text {
+        color: black;
         font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Verdana, "ＭＳ Ｐゴシック", sans-serif;
         box-sizing: border-box;
         padding: 7px;
@@ -498,81 +501,83 @@ footer {
       main .contact .contact-contents .contact-box {
         width: 100%;
         padding-bottom: 90px; }
-        main .contact .contact-contents .contact-box .row {
+        main .contact .contact-contents .contact-box .row .form {
+          color: black;
           box-sizing: border-box;
-          padding: 3px;
-          margin-bottom: 60px;
-          height: 250px;
+          padding: 2px;
+          height: 40px;
+          width: 100%;
+          display: block;
+          margin-bottom: 15px;
+          font-size: 14px;
+          font-size: 1.4rem; }
+          main .contact .contact-contents .contact-box .row .form:placeholder-shown {
+            color: #b0cccd;
+            font-size: 12px;
+            font-size: 1.2rem;
+            line-height: 1; }
+          main .contact .contact-contents .contact-box .row .form::-webkit-input-placeholder {
+            color: #b0cccd;
+            font-size: 12px;
+            font-size: 1.2rem;
+            line-height: 1; }
+          main .contact .contact-contents .contact-box .row .form:-moz-placeholder {
+            opacity: 1;
+            color: #b0cccd;
+            font-size: 12px;
+            font-size: 1.2rem;
+            line-height: 1; }
+          main .contact .contact-contents .contact-box .row .form::-moz-placeholder {
+            opacity: 1;
+            color: #b0cccd;
+            font-size: 12px;
+            font-size: 1.2rem;
+            line-height: 1; }
+          main .contact .contact-contents .contact-box .row .form:-ms-input-placeholder {
+            color: #b0cccd;
+            font-size: 12px;
+            font-size: 1.2rem;
+            line-height: 1; }
+        main .contact .contact-contents .contact-box .row .text {
+          color: black;
+          font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Verdana, "ＭＳ Ｐゴシック", sans-serif;
+          box-sizing: border-box;
+          padding: 7px;
+          margin-bottom: 55px;
+          height: 120px;
           width: 100%;
           display: block;
           resize: none;
           font-size: 14px;
           font-size: 1.4rem; }
-          main .contact .contact-contents .contact-box .row .form {
-            color: black;
-            box-sizing: border-box;
-            padding: 2px;
-            height: 40px;
-            width: 100%;
-            display: block;
-            margin-bottom: 15px;
-            font-size: 14px;
-            font-size: 1.4rem; }
-            main .contact .contact-contents .contact-box .row .form:placeholder-shown {
-              color: #b0cccd;
-              font-size: 12px;
-              font-size: 1.2rem;
-              line-height: 1; }
-            main .contact .contact-contents .contact-box .row .form::-webkit-input-placeholder {
-              color: #b0cccd;
-              font-size: 12px;
-              font-size: 1.2rem;
-              line-height: 1; }
-            main .contact .contact-contents .contact-box .row .form:-moz-placeholder {
-              opacity: 1;
-              color: #b0cccd;
-              font-size: 12px;
-              font-size: 1.2rem;
-              line-height: 1; }
-            main .contact .contact-contents .contact-box .row .form::-moz-placeholder {
-              opacity: 1;
-              color: #b0cccd;
-              font-size: 12px;
-              font-size: 1.2rem;
-              line-height: 1; }
-            main .contact .contact-contents .contact-box .row .form:-ms-input-placeholder {
-              color: #b0cccd;
-              font-size: 12px;
-              font-size: 1.2rem;
-              line-height: 1; }
-          main .contact .contact-contents .contact-box .row:placeholder-shown {
+          main .contact .contact-contents .contact-box .row .text:placeholder-shown {
             color: #b0cccd;
             font-size: 12px;
             font-size: 1.2rem;
             line-height: 1; }
-          main .contact .contact-contents .contact-box .row::-webkit-input-placeholder {
+          main .contact .contact-contents .contact-box .row .text::-webkit-input-placeholder {
             color: #b0cccd;
             font-size: 12px;
             font-size: 1.2rem;
             line-height: 1; }
-          main .contact .contact-contents .contact-box .row:-moz-placeholder {
+          main .contact .contact-contents .contact-box .row .text:-moz-placeholder {
             opacity: 1;
             color: #b0cccd;
             font-size: 12px;
             font-size: 1.2rem;
             line-height: 1; }
-          main .contact .contact-contents .contact-box .row::-moz-placeholder {
+          main .contact .contact-contents .contact-box .row .text::-moz-placeholder {
             opacity: 1;
             color: #b0cccd;
             font-size: 12px;
             font-size: 1.2rem;
             line-height: 1; }
-          main .contact .contact-contents .contact-box .row:-ms-input-placeholder {
+          main .contact .contact-contents .contact-box .row .text:-ms-input-placeholder {
             color: #b0cccd;
             font-size: 12px;
             font-size: 1.2rem;
             line-height: 1; }
-        main .contact .contact-contents .contact-box #form_send {
+        main .contact .contact-contents .contact-box .row #form_send {
           width: 100%;
           height: 55px;
           margin: 0 auto;
@@ -581,13 +586,12 @@ footer {
           font-size: 2.4rem;
           color: #02232c;
           background-color: #fff; }
-
-  footer {
+  main footer {
     height: 200px;
     width: 100%; }
-    footer .Parallax {
+    main footer .Parallax {
       height: 100%; }
-      footer .Parallax p {
+      main footer .Parallax p {
         box-sizing: border-box;
         font-family: "Alice", serif, "Sorts Mill Goudy", serif, "Radley", serif;
         height: 100%;
