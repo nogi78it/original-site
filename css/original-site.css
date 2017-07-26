@@ -154,11 +154,11 @@ main .work {
         position: relative;
         height: auto;
         width: 50%; }
-        main .work .work-contents .row .contents .box .box-contents img {
+        main .work .work-contents .row .contents .box a .box-contents img {
           height: 100%;
           width: 100%;
           vertical-align: bottom; }
-        main .work .work-contents .row .contents .box .box-contents .cover {
+        main .work .work-contents .row .contents .box a .box-contents .cover {
           display: none;
           position: absolute;
           top: 25%;
@@ -168,13 +168,13 @@ main .work {
           background-color: rgba(0, 0, 0, 0.5);
           color: #e9f6f6;
           text-align: center; }
-          main .work .work-contents .row .contents .box .box-contents .cover h5 {
+          main .work .work-contents .row .contents .box a .box-contents .cover h5 {
             position: relative;
             top: 45%;
             transform: translateY(-50%);
             font-size: 18px;
             font-size: 1.8rem; }
-          main .work .work-contents .row .contents .box .box-contents .cover p {
+          main .work .work-contents .row .contents .box a .box-contents .cover p {
             font-size: 14px;
             font-size: 1.4rem;
             position: relative;
@@ -340,7 +340,7 @@ footer {
   header {
     position: fixed;
     top: 0;
-    z-index: 100;
+    z-index: 10;
     width: 100%; }
     header .row {
       width: 100%;
@@ -460,12 +460,12 @@ footer {
           position: relative;
           height: auto;
           width: 100%; }
-          main .work .work-contents .row .contents .box .box-contents img {
+          main .work .work-contents .row .contents .box a .box-contents img {
             height: 100%;
             width: 100%;
             vertical-align: bottom; }
-          main .work .work-contents .row .contents .box .box-contents .cover {
-            display: none;
+          main .work .work-contents .row .contents .box a .box-contents .cover {
+            display: block;
             position: absolute;
             top: 25%;
             left: 25%;
@@ -474,13 +474,13 @@ footer {
             background-color: rgba(0, 0, 0, 0.5);
             color: #e9f6f6;
             text-align: center; }
-            main .work .work-contents .row .contents .box .box-contents .cover h5 {
+            main .work .work-contents .row .contents .box a .box-contents .cover h5 {
               position: relative;
               top: 45%;
               transform: translateY(-50%);
               font-size: 18px;
               font-size: 1.8rem; }
-            main .work .work-contents .row .contents .box .box-contents .cover p {
+            main .work .work-contents .row .contents .box a .box-contents .cover p {
               font-size: 14px;
               font-size: 1.4rem;
               position: relative;

@@ -236,36 +236,39 @@ main {
                         position:relative;
                         height:auto;
                         width:50%;
-                        .box-contents {
-                            img {
-                                height:100%;
-                                width:100%;
-                                vertical-align:bottom;
-                                }
-                            .cover {
-                                display:none;
-                                position:absolute;
-                                top:25%;
-                                left:25%;
-                                height:50%;
-                                width:50%;
-                                background-color:rgba(0,0,0,.5);
-                                color:$blue3;
-                                text-align:center;
-                                     h5 {
+                        a {
+                            .box-contents {
+                                img {
+                                    height:100%;
+                                    width:100%;
+                                    vertical-align:bottom;
+                                    }
+                                .cover {
+                                    display:none;
+                                    position:absolute;
+                                    top:25%;
+                                    left:25%;
+                                    height:50%;
+                                    width:50%;
+                                    background-color:rgba(0,0,0,.5);
+                                    color:$blue3;
+                                    text-align:center;
+                                    h5 {
                                         position: relative;
                                         top:45%;
                                         transform: translateY(-50%);
                                         @include fontsize(18);
-                                        }
+                                    }
                                     p {
                                         @include fontsize(14);
                                         position: relative;
                                         top:50%;
                                         transform: translateY(-50%);
                                     }
+                                }
                             }
                         }
+                       
                         
                     }
                 }
@@ -428,7 +431,7 @@ body {
 header {
     position:fixed;
         top:0;
-    z-index:100;
+    z-index:10;
     width:100%;
     .row {
     width:100%;
@@ -585,37 +588,38 @@ main {
                         position:relative;
                         height:auto;
                         width:100%;
-                        .box-contents {
-                            img {
-                                height:100%;
-                                width:100%;
-                                vertical-align:bottom;
-                                }
-                            .cover {
-                                display:none;
-                                position:absolute;
-                                top:25%;
-                                left:25%;
-                                height:50%;
-                                width:50%;
-                                background-color:rgba(0,0,0,.5);
-                                color:$blue3;
-                                text-align:center;
-                                     h5 {
+                        a {
+                            .box-contents {
+                                img {
+                                    height:100%;
+                                    width:100%;
+                                    vertical-align:bottom;
+                                    }
+                                .cover {
+                                    display:block;
+                                    position:absolute;
+                                    top:25%;
+                                    left:25%;
+                                    height:50%;
+                                    width:50%;
+                                    background-color:rgba(0,0,0,.5);
+                                    color:$blue3;
+                                    text-align:center;
+                                    h5 {
                                         position: relative;
                                         top:45%;
                                         transform: translateY(-50%);
                                         @include fontsize(18);
-                                        }
+                                    }
                                     p {
                                         @include fontsize(14);
                                         position: relative;
                                         top:50%;
                                         transform: translateY(-50%);
                                     }
+                                }
                             }
                         }
-                        
                     }
                 }
             }
