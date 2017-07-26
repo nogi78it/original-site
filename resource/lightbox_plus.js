@@ -1030,8 +1030,8 @@ Lightbox.prototype = {
 Spica.Event.run(function() { 
   new Lightbox({
     loadingimg:'resource/loading.gif',
-    expandimg:'resource/expand.gif',
-    shrinkimg:'resource/shrink.gif',
+    expandimg:'resource/expand.png',
+    shrinkimg:'resource/shrink.png',
     blankimg:'resource/blank.gif',
     previmg:'resource/prev.png',
     nextimg:'resource/next.png',
