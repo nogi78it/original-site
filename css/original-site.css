@@ -15,7 +15,7 @@ body {
   margin: 0;
   font-size: 1.5em;
   font-weight: 400;
-  background-color: #fbfbf8;
+  background-color: #02232c;
   width: 100%; }
   body .sp-title {
     display: none; }
@@ -121,7 +121,7 @@ main .about {
     background-image: url(../image/title01.png); }
   main .about .about-contents {
     color: #e9f6f6;
-    padding: 10% 0 140px 120px; }
+    padding: 10% 20% 140px 20%; }
     main .about .about-contents h4 {
       display: block;
       font-size: 18px;
@@ -273,14 +273,36 @@ main .contact {
           line-height: 1; }
       main .contact .contact-contents .contact-box .row #form_send {
         display: block;
-        width: 200px;
+        width: 300px;
         height: 45px;
+        padding: 0;
+        text-align: center;
+        line-height: 45px;
         margin: 0 auto;
         font-family: "Alice", serif, "Sorts Mill Goudy", serif, "Radley", serif;
         font-size: 24px;
         font-size: 2.4rem;
         color: #02232c;
+        border-radius: 3px;
+        border: 2px solid #fff;
+        color: #02232c;
+        box-shadow: 0 5px 0 rgba(238, 238, 238, 0.4);
+        transition: color 0.3s, background-color 0.3s, box-shadow 0.3s, transform 0.3s;
         background-color: #fff; }
+        main .contact .contact-contents .contact-box .row #form_send:hover {
+          color: #fff;
+          border: 2px solid #fff;
+          background-color: #61fcfe;
+          box-shadow: 0 3px 0 rgba(238, 238, 238, 0.4);
+          transform: translateY(2px); }
+        main .contact .contact-contents .contact-box .row #form_send:active {
+          color: #fff;
+          background-color: #02232c;
+          border: 2px solid #fff;
+          border-radius: 3px;
+          box-shadow: 0 0 0;
+          transform: translateY(5px);
+          transition-duration: 0.1s; }
 
 footer {
   height: 230px;
@@ -580,12 +602,29 @@ footer {
         main .contact .contact-contents .contact-box .row #form_send {
           width: 100%;
           height: 55px;
+          line-height: 55px;
           margin: 0 auto;
           font-family: "Alice", serif, "Sorts Mill Goudy", serif, "Radley", serif;
           font-size: 24px;
           font-size: 2.4rem;
           color: #02232c;
-          background-color: #fff; }
+          border: 2px solid #fff;
+          background-color: #fff;
+          box-shadow: 0 3px 0 rgba(238, 238, 238, 0.4); }
+          main .contact .contact-contents .contact-box .row #form_send:hover {
+            color: #02232c;
+            border: 2px solid #fff;
+            background-color: #fff;
+            box-shadow: 0 3px 0 rgba(238, 238, 238, 0.4);
+            transform: translateY(0px); }
+          main .contact .contact-contents .contact-box .row #form_send:active {
+            color: #fff;
+            background-color: #02232c;
+            border: 2px solid #fff;
+            border-radius: 3px;
+            box-shadow: 0 0 0;
+            transform: translateY(3px);
+            transition-duration: 0.1s; }
   main footer {
     height: 200px;
     width: 100%; }
